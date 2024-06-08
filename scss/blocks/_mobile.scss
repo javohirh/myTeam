@@ -51,7 +51,7 @@
       display: none;
       position: fixed;
       width: 70%;
-      height: 667px;
+      height: 100vh;
       background-color: #2c6269;
       top: 0;
       right: 0;
@@ -60,7 +60,7 @@
 
       .x {
         position: relative;
-        top: -66px;
+        top: -62px;
         right: -96%;
         z-index: 44;
       }
@@ -72,7 +72,7 @@
       }
       .hamburber__img {
         position: fixed;
-        bottom: -20px;
+        bottom: 1%;
         right: 0;
       }
       .mobile-header-btn {
