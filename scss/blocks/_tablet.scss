@@ -1,0 +1,38 @@
+@use "./variables";
+
+@media only screen and (min-width: 596px) and (max-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+  .header {
+    padding-top: 64px;
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      text-align: center;
+      margin-top: 112px;
+      h1 {
+        @include variables.text-style(700, 64px, 56px, #fff);
+        max-width: 380px;
+      }
+      .hero__content {
+        .hero__hr {
+          display: none;
+        }
+        p {
+          @include variables.text-style(600, 15px, 28px, #fff);
+          max-width: 457px;
+        }
+      }
+    }
+    .disk-left {
+      display: none;
+    }
+    .disk-buttom {
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }
+}
