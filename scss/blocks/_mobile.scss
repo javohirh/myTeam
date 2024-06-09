@@ -6,7 +6,7 @@
   }
   .header {
     padding-top: 48px;
-    height: 567px;
+    height: fit-content;
     .navbar {
       ul,
       .header-btn {
@@ -33,6 +33,7 @@
         }
         p {
           @include variables.text-style(600, 15px, 28px, #fff);
+          padding-bottom: 150px;
 
           max-width: 327px;
         }
@@ -203,6 +204,27 @@
     }
     .client-bg {
       width: 25%;
+    }
+  }
+  header {
+    h1 {
+      margin: auto;
+    }
+    .hero {
+      .left {
+        display: none;
+      }
+    }
+  }
+  .hero__form {
+    form {
+      input,
+      textarea {
+        max-width: 327px;
+      }
+      .form-btn {
+        transform: translateX(-105px);
+      }
     }
   }
 }

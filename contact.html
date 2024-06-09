@@ -10,7 +10,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.min.css" />
-    <title>MyTeam</title>
+    <link rel="stylesheet" href="./css/contact.min.css" />
+    <title>Contact</title>
   </head>
   <body>
     <header class="header">
@@ -19,14 +20,12 @@
           <div class="nav">
             <img src="./images/myteam.svg" alt="logo" />
             <ul>
-              <li><a href="">home</a></li>
+              <li><a href="./index.html">home</a></li>
               <li><a href="./about.html">about</a></li>
             </ul>
           </div>
 
-          <a href="./contact.html"
-            ><button class="btn header-btn">contact us</button></a
-          >
+          <button class="btn header-btn">contact us</button>
           <div class="hamburber">
             <img src="./images/burger.svg" alt="" onclick="myFunction()" />
           </div>
@@ -34,12 +33,10 @@
         <div id="hamburber-menu">
           <img class="x" src="./images/x.svg" alt="" onclick="myFunction()" />
           <ul>
-            <li><a href="">home</a></li>
-            <li><a href="./about.html">about</a></li>
+            <li><a href="./index.html">home</a></li>
+            <li><a href="">about</a></li>
           </ul>
-          <a href="./contact.html"
-            ><button class="btn header-btn">contact us</button></a
-          >
+          <button class="btn header-btn mobile-header-btn">contact us</button>
           <img
             class="hamburber__img"
             src="./images/mobile-meu-img.png"
@@ -48,134 +45,73 @@
         </div>
 
         <div class="hero">
-          <img class="disk-left" src="./images/disk-left.png" alt="disk-left" />
-          <h1>Find the best <span>talent</span></h1>
-          <div class="hero__content">
-            <p>
-              Finding the right people and building high performing teams can be
-              hard. Most companies aren’t tapping into the abundance of global
-              talent. We’re about to change that.
-            </p>
-            <hr class="hero__hr" />
+          <img class="left" src="./images/meet-left.png" alt="" />
+          <div class="hero__title">
+            <h1>Contact</h1>
+            <h4>Ask us about</h4>
+            <div class="hero__text">
+              <img src="./images/contact-person.png" alt="" />
+              <p>The quality of our talent network</p>
+            </div>
+            <div class="hero__text">
+              <img src="./images/contact-key.png" alt="" />
+              <p>Usage & implementation of our software</p>
+            </div>
+            <div class="hero__text">
+              <img src="./images/contact-index.png" alt="" />
+              <p>How we help drive innovation</p>
+            </div>
+          </div>
+
+          <div class="hero__form">
+            <form action="https://echo.htmlacademy.ru/">
+              <input
+                type="text"
+                placeholder="Name"
+                name="name"
+                id="name"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                id="email"
+                required
+              />
+              <input
+                type="text"
+                placeholder="Company Name"
+                name="Company Name"
+                id="Company Name"
+                required
+              />
+              <input
+                type="text"
+                name="title"
+                id="title"
+                placeholder="Title"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+              <button class="btn form-btn" type="submit">Submit</button>
+            </form>
           </div>
         </div>
       </div>
-
-      <img
-        class="disk-buttom"
-        src="./images/disk-bottom.png"
-        alt="disk-bottom"
-      />
+      <img class="contact-bottom" src="./images/contact-bottom.png" alt="" />
     </header>
-    <main>
-      <section class="build">
-        <div class="build__main container">
-          <div class="build__title">
-            <hr class="build__hr" />
-            <h2>Build & manage distributed teams like no one else.</h2>
-          </div>
-          <div class="build__content">
-            <div class="build__text">
-              <img src="./images/icon-experienced.png" alt="" />
-              <div>
-                <h4>Experienced Individuals</h4>
-                <p>
-                  Our network is made up of highly experienced professionals who
-                  are passionate about what they do.
-                </p>
-              </div>
-            </div>
-            <div class="build__text">
-              <img src="./images/icon-gear.png" alt="" />
-              <div>
-                <h4>Easy to Implement</h4>
-                <p>
-                  Our processes have been refined over years of implementation
-                  meaning our teams always deliver.
-                </p>
-              </div>
-            </div>
-
-            <div class="build__text">
-              <img src="./images/icon-stat.png" alt="" />
-              <div>
-                <h4>Enhanced Productivity</h4>
-                <p>
-                  Our customized platform with in-built analytics helps you
-                  manage your distributed teams.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img class="build__img" src="./images/build-img.png" alt="" />
-      </section>
-      <section class="delivering">
-        <div class="delivering__main container">
-          <h2>
-            Delivering real results for top companies. Some of our
-            <span>success stories.</span>
-          </h2>
-          <div class="delivering__content">
-            <div class="delivering__text">
-              <img class="quote" src="./images/quote.png" alt="" />
-              <p>
-                “The team perfectly fit the specialized skill set required. They
-                focused on the most essential features helping us launch the
-                platform eight months faster than planned.”
-              </p>
-              <h5>Kady Baker</h5>
-              <h6>Product Manager at Bookmark</h6>
-              <img src="./images/user-kady.svg" alt="" />
-            </div>
-            <div class="delivering__text">
-              <img class="quote" src="./images/quote.png" alt="" />
-              <p>
-                “We needed to automate our entire onboarding process. The team
-                came in and built out the whole journey. Since going live, user
-                retention has gone through the roof!”
-              </p>
-              <h5>Aiysha Reese</h5>
-              <h6>Founder of Manage</h6>
-              <img src="./images/user-aiysha.svg" alt="" />
-            </div>
-            <div class="delivering__text">
-              <img class="quote" src="./images/quote.png" alt="" />
-              <p>
-                “Amazing. Our team helped us build an app that delivered a new
-                experience for hiring a physio. The launch was an instant
-                success with 100k downloads in the first month.”
-              </p>
-              <h5>Arthur Clarke</h5>
-              <h6>Co-founder of MyPhysio</h6>
-              <img src="./images/user-arthur.svg" alt="" />
-            </div>
-          </div>
-        </div>
-        <img
-          class="deliver__right"
-          src="./images/deliver-right-bg.png"
-          alt=""
-        />
-        <img class="deliver__buttom" src="./images/deliver-buttom.png" alt="" />
-      </section>
-      <section class="ready">
-        <div class="ready__main container">
-          <h2>Ready to get started?</h2>
-          <a href="./contact.html"
-            ><button class="btn header-btn">contact us</button></a
-          >
-        </div>
-        <img class="ready__img" src="./images/ready-img.png" alt="" />
-      </section>
-    </main>
     <footer>
       <div class="footer__main container">
         <div class="footer__logo">
           <div class="footer-logo__left">
             <img src="./images/myteam.svg" alt="logo" />
             <ul>
-              <li><a href="">home</a></li>
+              <li><a href="./index.html">home</a></li>
               <li><a href="./about.html">about</a></li>
             </ul>
           </div>
