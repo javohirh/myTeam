@@ -34,6 +34,9 @@
       right: 50%;
       transform: translateX(50%);
     }
+    .disk__red {
+      width: 10%;
+    }
   }
   .build {
     &__main {
@@ -105,6 +108,19 @@
           position: relative;
         }
       }
+    }
+  }
+  .clients {
+    h2 {
+      @include variables.text-style(700, 32px, 32px, #fff);
+    }
+    .client-img {
+      img {
+        max-width: 103px;
+      }
+    }
+    .client-bg {
+      width: 30%;
     }
   }
 }

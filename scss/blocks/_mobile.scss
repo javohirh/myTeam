@@ -79,6 +79,9 @@
         margin-top: 36px;
       }
     }
+    .disk__red {
+      width: 20%;
+    }
   }
   .build {
     &__main {
@@ -166,6 +169,40 @@
     .footer__svg {
       align-items: center;
       margin-top: 40px;
+    }
+  }
+  .meet__card {
+    img {
+      padding: 0 80px;
+    }
+  }
+  .meet-card-m {
+    .meet__socials {
+      padding: 0;
+    }
+  }
+  .plus {
+    img {
+      margin: 0;
+      padding: 0;
+      transform: translate(0px, 21px);
+    }
+  }
+  .clients {
+    h2 {
+      @include variables.text-style(700, 32px, 32px, #fff);
+      margin-bottom: 0;
+      padding-top: 89px;
+    }
+    .client-img {
+      flex-direction: column;
+      gap: 40px;
+      img {
+        max-width: 100%;
+      }
+    }
+    .client-bg {
+      width: 25%;
     }
   }
 }
