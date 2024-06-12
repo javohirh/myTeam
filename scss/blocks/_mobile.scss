@@ -26,6 +26,7 @@
       h1 {
         @include variables.text-style(700, 40px, 40px, #fff);
         max-width: 247px;
+        margin: auto;
       }
       .hero__content {
         .hero__hr {
