@@ -24,6 +24,11 @@ header {
       }
     }
   }
+  .disk-left {
+    position: absolute;
+    top: 35%;
+    left: 0;
+  }
 
   .disk-buttom {
     position: absolute;
@@ -40,6 +45,7 @@ header {
     h1 {
       max-width: 531px;
       @include variables.text-style(700, 100px, 100px, #fff);
+      margin-left: 4%;
 
       span {
         color: #fb7e7e;
