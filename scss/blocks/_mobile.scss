@@ -208,6 +208,9 @@
     }
   }
   header {
+    .contact-bottom {
+      width: 17% !important;
+    }
     h1 {
       margin: auto;
     }
@@ -222,6 +225,7 @@
       input,
       textarea {
         max-width: 327px;
+        width: 300px;
       }
       .form-btn {
         transform: translateX(-105px);
